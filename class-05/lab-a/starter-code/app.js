@@ -80,7 +80,7 @@ let testArray = [2, 3, 4]; //eslint-disable-line
 function sumArray(sumArr) { //eslint-disable-line
     let result = sum(sum(testArray[0],testArray[1])[0],testArray[2])[0];
     let statement = `${testArray[0]},${testArray[1]},${testArray[2]} was passed in as an array of numbers, and ${result} is their sum.`;
-    return[result,statement]
+    return[result,statement];
 
 }
 
